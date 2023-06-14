@@ -1,0 +1,28 @@
+[ Sun Jun 11 23:31:37 2023 ] Resuming from checkpoint: epoch 200
+[ Sun Jun 11 23:43:06 2023 ] Resuming from checkpoint: epoch 200
+[ Mon Jun 12 00:06:14 2023 ] Resuming from checkpoint: epoch 200
+[ Mon Jun 12 00:06:14 2023 ] Model:   models.motion.Motion.
+[ Mon Jun 12 00:06:14 2023 ] Weights: PATH_TO_WEIGHTS/epoch200_model.pt.
+[ Mon Jun 12 00:08:21 2023 ] Resuming from checkpoint: epoch 200
+[ Mon Jun 12 00:08:21 2023 ] Model:   models.motion.Motion.
+[ Mon Jun 12 00:08:21 2023 ] Weights: PATH_TO_WEIGHTS/epoch200_model.pt.
+[ Mon Jun 12 00:10:26 2023 ] Parameters:
+{'work_dir': 'PATH_TO_SAVE_RESULTS', 'config': 'pointlstm.yaml', 'device': '0', 'phase': 'train', 'random_fix': True, 'random_seed': 0, 'save_interval': 5, 'eval_interval': 5, 'print_log': True, 'log_interval': 50, 'dataloader': 'shrec_dataloader.SHRECLoader', 'num_worker': 10, 'framesize': 32, 'pts_size': 128, 'train_loader_args': {'phase': 'train', 'framerate': 32}, 'test_loader_args': {'phase': 'test', 'framerate': 32}, 'valid_loader_args': {}, 'model': 'models.motion.Motion', 'model_args': {'pts_size': 128, 'num_classes': 28, 'knn': [16, 24, 48, 12], 'offsets': False, 'topk': 16}, 'weights': None, 'ignore_weights': [], 'batch_size': 8, 'test_batch_size': 8, 'optimizer_args': {'optimizer': 'Adam', 'base_lr': 0.0001, 'step': [100, 160, 180], 'weight_decay': 0.005, 'start_epoch': 0, 'nesterov': False}, 'num_epoch': 200}
+
+[ Mon Jun 12 00:10:26 2023 ] Training epoch: 1
+[ Mon Jun 12 00:10:58 2023 ] Parameters:
+{'work_dir': 'PATH_TO_SAVE_RESULTS', 'config': 'pointlstm.yaml', 'device': '0', 'phase': 'train', 'random_fix': True, 'random_seed': 0, 'save_interval': 5, 'eval_interval': 5, 'print_log': True, 'log_interval': 50, 'dataloader': 'shrec_dataloader.SHRECLoader', 'num_worker': 10, 'framesize': 32, 'pts_size': 128, 'train_loader_args': {'phase': 'train', 'framerate': 32}, 'test_loader_args': {'phase': 'test', 'framerate': 32}, 'valid_loader_args': {}, 'model': 'models.motion.Motion', 'model_args': {'pts_size': 128, 'num_classes': 28, 'knn': [16, 24, 48, 12], 'offsets': False, 'topk': 16}, 'weights': None, 'ignore_weights': [], 'batch_size': 8, 'test_batch_size': 8, 'optimizer_args': {'optimizer': 'Adam', 'base_lr': 0.0001, 'step': [100, 160, 180], 'weight_decay': 0.005, 'start_epoch': 0, 'nesterov': False}, 'num_epoch': 200}
+
+[ Mon Jun 12 00:10:58 2023 ] Training epoch: 1
+[ Mon Jun 12 06:43:33 2023 ] Resuming from checkpoint: epoch 200
+[ Mon Jun 12 06:43:33 2023 ] Model:   models.motion.Motion.
+[ Mon Jun 12 06:43:33 2023 ] Weights: PATH_TO_WEIGHTS\epoch200_model.pt.
+[ Mon Jun 12 13:27:25 2023 ] Resuming from checkpoint: epoch 200
+[ Mon Jun 12 13:27:25 2023 ] Model:   models.motion.Motion.
+[ Mon Jun 12 13:27:25 2023 ] Weights: PATH_TO_WEIGHTS\epoch200_model.pt.
+[ Mon Jun 12 13:30:45 2023 ] Resuming from checkpoint: epoch 200
+[ Mon Jun 12 13:30:45 2023 ] Model:   models.motion.Motion.
+[ Mon Jun 12 13:30:45 2023 ] Weights: PATH_TO_WEIGHTS\epoch200_model.pt.
+[ Mon Jun 12 13:31:33 2023 ] mean loss: 0.6363748544209686
+[ Mon Jun 12 13:31:33 2023 ] Evaluation Done.
+
